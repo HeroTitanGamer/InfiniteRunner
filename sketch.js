@@ -58,6 +58,9 @@ if(gameState == 0 ){
     if(frameCount%10 == 0){
         score += 1
     }
+    if(score%20 == 0){
+    forest.velocityX -= 1;
+    }
     if(forest.x<=-100){
         forest.x = width*2;
     }
