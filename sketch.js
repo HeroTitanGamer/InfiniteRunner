@@ -21,7 +21,7 @@ var Obstacles;
 function preload(){
     run = loadImage("./Assets/Running.gif");
     cobble = loadImage("./Assets/Wall.png");
-    stone = loadImage("./Assets/obstacle.png");
+    stone = loadImage("./Assets/Obstacle.png");
     backspace = loadImage("./Assets/Forest.png");
     coin = loadImage("./Assets/coin.png");
     pauseImg = loadImage("./Assets/Pause.png");
